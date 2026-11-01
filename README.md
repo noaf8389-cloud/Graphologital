@@ -1,5 +1,8 @@
 # Graphologital
 
+<img width="1892" height="857" alt="צילום מסך 2026-11-01 072431" src="https://github.com/user-attachments/assets/1cf5007e-ee37-4191-b7c7-a60ff445ac64" />
+<img width="1886" height="499" alt="צילום מסך 2026-11-01 072621" src="https://github.com/user-attachments/assets/a48c6167-06e5-4db2-8ac3-a1c1f2400f1e" />
+
 A full-stack system that analyzes scanned Hebrew handwriting: it segments the page into characters, recognizes them with a CNN, extracts 59 graphological measurements, and scores the writer against nine personality types.
 
 **Tech stack:** C# · ASP.NET Core 8 · Python · FastAPI · TensorFlow/Keras · OpenCV · React · Vite · Tailwind CSS · SQL Server
