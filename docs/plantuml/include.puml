@@ -1,0 +1,15 @@
+@startuml
+!include .\\Character.puml
+!include .\\form_of_writing.puml
+!include .\\GraphologyMetrics.puml
+!include .\\Organization_writing.puml
+!include .\\Program.puml
+!include .\\Tis.puml
+!include .\\writing_movement.puml
+!include .\\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.puml
+!include .\\obj\Debug\net6.0\חילוץ נתונים על הכתב.AssemblyInfo.puml
+!include .\\obj\Debug\net6.0\חילוץ נתונים על הכתב.GlobalUsings.g.puml
+!include .\\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.puml
+!include .\\obj\Debug\net8.0\חילוץ נתונים על הכתב.AssemblyInfo.puml
+!include .\\obj\Debug\net8.0\חילוץ נתונים על הכתב.GlobalUsings.g.puml
+@enduml

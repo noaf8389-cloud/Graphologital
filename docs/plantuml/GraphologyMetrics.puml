@@ -1,0 +1,53 @@
+@startuml
+class GraphologyMetrics {
+    + Left_Margin : double <<get>> <<set>>
+    + Left_Margin_SD : double <<get>> <<set>>
+    + Right_Margin : double <<get>> <<set>>
+    + Right_Margin_SD : double <<get>> <<set>>
+    + Top_Margin : double <<get>> <<set>>
+    + Botton_Margin : double <<get>> <<set>>
+    + LineSpacing : double <<get>> <<set>>
+    + RowDirection : double <<get>> <<set>>
+    + RowDirectionSD : double <<get>> <<set>>
+    + RowDirection_signChanges : double <<get>> <<set>>
+    + WordChar_Spacing : double <<get>> <<set>>
+    + Word_Spacing : double <<get>> <<set>>
+    + Word_Spacing_SD : double <<get>> <<set>>
+    + Char_Spacing : double <<get>> <<set>>
+    + Char_SpacingMean_SD : double <<get>> <<set>>
+    + Angle : double <<get>> <<set>>
+    + Angle_SD : double <<get>> <<set>>
+    + pressure : double <<get>> <<set>>
+    + pressure_SD : double <<get>> <<set>>
+    + pressure_writer_outlet : double <<get>> <<set>>
+    + Pressure : double <<get>> <<set>>
+    + PressureSD : double <<get>> <<set>>
+    + StrokeEdgesStdDev : double <<get>> <<set>>
+    + SpeedMean : double <<get>> <<set>>
+    + VelocityStdDev : double <<get>> <<set>>
+    + LetterSizeMean : double <<get>> <<set>>
+    + Middle_Zone : double <<get>> <<set>>
+    + Middle_Zone_SD : double <<get>> <<set>>
+    + Upper_Zone : double <<get>> <<set>>
+    + Lower_Zone : double <<get>> <<set>>
+    + Width : double <<get>> <<set>>
+    + reading : double <<get>> <<set>>
+}
+enum AnalyzeType {
+    Harmonic,
+    Fluctuating,
+    Rigid,
+    Dysharmonic,
+}
+enum EdgeType {
+    NotEnoughData,
+    Straight,
+    Changing,
+    Wavy,
+    Jagged,
+    Irregular,
+}
+GraphologyMetrics --> "Analyze" AnalyzeType
+GraphologyMetrics +-- AnalyzeType
+GraphologyMetrics +-- EdgeType
+@enduml

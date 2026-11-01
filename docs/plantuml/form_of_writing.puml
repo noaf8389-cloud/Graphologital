@@ -1,0 +1,22 @@
+@startuml
+class Tis <<partial>> {
+    + angleAvg() : (double avg, double sq)
+    + writing_areas() : (double cNeutral, double sq_neutral, double cMean, double cBase, double ThreeZone_ratio)
+    + read() : double
+    + wength() : double
+    + Geometric_shape() : (double avg, double sq)
+    + {static} CalculateShapeStyleMetrics(avgAngleChangePercent:double, stdAngleChangePercent:double, sharpCornersPercent:double, waveRatioPercent:double, readabilityPercent:double, widthStdPercent:double) : (
+    double standardPercent,     // עד כמה הכתב תקני/ברור
+    double simplifiedPercent,   // עד כמה הכתב מופשט/פשוט
+    double decoratedPercent,    // עד כמה יש קישוטים
+    double enrichedPercent      // עד כמה הצורה מועשרת
+    )
+    + {static} CalculateLineShapeMetrics(avgAngleChangePercent:double, stdAngleChangePercent:double, sharpCornersPercent:double, waveRatioPercent:double, widthPercent:double, widthStdPercent:double, writingWidthPercent:double, heightWidthRatioPercent:double, continuityPercent:double, simplifiedPercent:double, flowAvgPercent:double, edgeType:EdgeType) : (
+        double straightPercent,   // מדד קו ישר: יציב, פשוט, מעט שינויי כיוון
+        double convexPercent,     // מדד קו קמור: רחב, עגול, פתוח
+        double concavePercent,    // מדד קו קעור: צר, מכונס, פחות פתוח
+        double threadlikePercent  // מדד קו חוטי: דק, רציף, פשוט וזורם
+    )
+}
+Character <|-- Tis
+@enduml

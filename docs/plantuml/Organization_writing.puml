@@ -1,0 +1,13 @@
+@startuml
+class Tis <<partial>> {
+    + topMargin() : double
+    + BottomMargin() : double
+    + rightMardin() : (double avg, double sq)
+    + leftMargin() : (double avg, double sq)
+    + spaces() : (int countChar, double avgW, double sqW, double avgC, double sqC, double avg)
+    + lineSpace() : (double avg, double sq)
+    + Row_direction(space_words:double) : (double avg_angle, double avg_stdDev, double avg_signChanges)
+    + {static} least_squares(line:List<Character>) : (double m, double b)
+}
+Character <|-- Tis
+@enduml

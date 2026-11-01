@@ -1,0 +1,682 @@
+{
+  "OrganizationAndPlanning": {
+    "Trait": "יכולת ארגון ותכנון",
+    "Diagnosis": "הכותב נוטה לפעול באופן מסודר, לתכנן את צעדיו ולשמור על מבנה ברור ועקבי בביצוע משימות.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 70,
+    "Signs": [
+      {
+        "Metric": "Movement_Control",
+        "Label": "מרוסנת",
+        "Weight": 1.2,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Style_Standard",
+        "Label": "גבוה",
+        "Weight": 1.0,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Row_Direction_SD",
+        "Label": "סדיר",
+        "Weight": 1.0,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Word_Spacing_SD",
+        "Label": "סדיר",
+        "Weight": 0.9,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Readability",
+        "Label": "גדול",
+        "Weight": 0.8,
+        "Domain": "Form"
+      }
+    ]
+  },
+  "PrecisionAndConscientiousness": {
+    "Trait": "דיוק וקפדנות",
+    "Diagnosis": "הכותב מגלה תשומת לב לפרטים, הקפדה על צורה ונטייה לבצע פעולות מתוך בקרה ועקביות.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 70,
+    "Signs": [
+      {
+        "Metric": "Edge_Straight_Score",
+        "Label": "גבוה",
+        "Weight": 1.0,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Style_Standard",
+        "Label": "גבוה",
+        "Weight": 1.1,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Movement_Control",
+        "Label": "מרוסנת",
+        "Weight": 1.2,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Geometric_Shape_SD",
+        "Label": "סדיר",
+        "Weight": 0.8,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Right_Margin_SD",
+        "Label": "סדיר",
+        "Weight": 0.8,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Left_Margin_SD",
+        "Label": "סדיר",
+        "Weight": 0.8,
+        "Domain": "Organization"
+      }
+    ]
+  },
+  "SelfControl": {
+    "Trait": "שליטה עצמית וויסות",
+    "Diagnosis": "הכותב נוטה לווסת את תגובותיו, לשמור על יציבות ולפעול מתוך שיקול דעת ובקרה.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 70,
+    "Signs": [
+      {
+        "Metric": "Movement_Control",
+        "Label": "מרוסנת",
+        "Weight": 1.3,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Flow_SD",
+        "Label": "סדיר",
+        "Weight": 1.0,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Pressure_SD",
+        "Label": "סדיר",
+        "Weight": 1.0,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Angle_SD",
+        "Label": "סדיר",
+        "Weight": 0.9,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Row_Direction_SD",
+        "Label": "סדיר",
+        "Weight": 0.9,
+        "Domain": "Organization"
+      }
+    ]
+  },
+  "InitiativeAndDrive": {
+    "Trait": "יוזמה והנעה",
+    "Diagnosis": "הכותב נוטה לקדם רעיונות לפעולה, להגיב במהירות להזדמנויות ולפעול מתוך אנרגיה ומעורבות.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 68,
+    "Signs": [
+      {
+        "Metric": "Movement_Energy",
+        "Label": "נמרצת",
+        "Weight": 1.2,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Speed_Avg",
+        "Label": "מהירה",
+        "Weight": 1.0,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Flow_Avg",
+        "Label": "הרמוני",
+        "Weight": 1.0,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Style_Simplified",
+        "Label": "גבוה",
+        "Weight": 0.8,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Row_Direction",
+        "Label": "עולה",
+        "Weight": 0.7,
+        "Domain": "Organization"
+      }
+    ]
+  },
+  "Persistence": {
+    "Trait": "התמדה ונחישות",
+    "Diagnosis": "הכותב נוטה להשקיע מאמץ עקבי, לשמור על רצף עבודה ולהמשיך במשימה גם כאשר נדרשת סבלנות.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 68,
+    "Signs": [
+      {
+        "Metric": "Pressure_Avg",
+        "Label": "עמוק",
+        "Weight": 1.0,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Pressure_SD",
+        "Label": "סדיר",
+        "Weight": 0.9,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Movement_Control",
+        "Label": "מרוסנת",
+        "Weight": 1.0,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Movement_Periodicity",
+        "Label": "מחזורית",
+        "Weight": 0.8,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Row_Direction_SD",
+        "Label": "סדיר",
+        "Weight": 0.8,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Style_Standard",
+        "Label": "גבוה",
+        "Weight": 0.6,
+        "Domain": "Form"
+      }
+    ]
+  },
+  "Concentration": {
+    "Trait": "כושר ריכוז",
+    "Diagnosis": "הכותב נוטה לשמור על מיקוד, רצף ועקביות לאורך ביצוע משימות.",
+    "MinimumMatchedSigns": 4,
+    "MinimumScore": 72,
+    "Signs": [
+      {
+        "Metric": "Neutral_Zone_SD",
+        "Label": "סדיר",
+        "Weight": 1.0,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Angle_SD",
+        "Label": "סדיר",
+        "Weight": 1.0,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Word_Spacing_SD",
+        "Label": "סדיר",
+        "Weight": 0.9,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Char_Spacing_SD",
+        "Label": "סדיר",
+        "Weight": 0.9,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Line_Spacing_SD",
+        "Label": "סדיר",
+        "Weight": 0.8,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Flow_SD",
+        "Label": "סדיר",
+        "Weight": 0.9,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Readability",
+        "Label": "גדול",
+        "Weight": 0.7,
+        "Domain": "Form"
+      }
+    ]
+  },
+  "AnalyticalThinking": {
+    "Trait": "חשיבה אנליטית ושיטתית",
+    "Diagnosis": "הכותב נוטה לפרק מידע לחלקים, לבחון פרטים ולפעול לאחר בדיקה מסודרת.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 69,
+    "Signs": [
+      {
+        "Metric": "Style_Simplified",
+        "Label": "גבוה",
+        "Weight": 1.0,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Movement_Control",
+        "Label": "מרוסנת",
+        "Weight": 1.1,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Avg_Word_Width",
+        "Label": "קטן",
+        "Weight": 0.8,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Upper_Zone_Mean",
+        "Label": "גדול",
+        "Weight": 0.8,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Angle_SD",
+        "Label": "סדיר",
+        "Weight": 0.8,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Word_Spacing_Avg",
+        "Label": "גדול",
+        "Weight": 0.7,
+        "Domain": "Organization"
+      }
+    ]
+  },
+  "PracticalThinking": {
+    "Trait": "חשיבה מעשית",
+    "Diagnosis": "הכותב נוטה להתמקד בביצוע, בתוצאה ובמציאת פתרונות שימושיים וישימים.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 68,
+    "Signs": [
+      {
+        "Metric": "Lower_Zone_Mean",
+        "Label": "גדול",
+        "Weight": 0.9,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Style_Simplified",
+        "Label": "גבוה",
+        "Weight": 1.0,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Pressure_Avg",
+        "Label": "עמוק",
+        "Weight": 0.9,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Movement_Energy",
+        "Label": "נמרצת",
+        "Weight": 0.8,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Readability",
+        "Label": "גדול",
+        "Weight": 0.8,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Line_Spacing_Avg",
+        "Label": "ממוצע",
+        "Weight": 0.6,
+        "Domain": "Organization"
+      }
+    ]
+  },
+  "CreativeImagination": {
+    "Trait": "דמיון ויצירתיות",
+    "Diagnosis": "הכותב נוטה להפיק רעיונות חדשים, להשתמש בדמיון ולבטא מקוריות וגיוון.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 68,
+    "Signs": [
+      {
+        "Metric": "Style_Enriched",
+        "Label": "גבוה",
+        "Weight": 1.2,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Style_Decorated",
+        "Label": "גבוה",
+        "Weight": 0.8,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Upper_Zone_Mean",
+        "Label": "גדול",
+        "Weight": 0.9,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Geometric_Shape_SD",
+        "Label": "תנודתי",
+        "Weight": 0.7,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Flow_Avg",
+        "Label": "הרמוני",
+        "Weight": 0.8,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Right_Margin_SD",
+        "Label": "תנודתי",
+        "Weight": 0.5,
+        "Domain": "Organization"
+      }
+    ]
+  },
+  "MentalFlexibility": {
+    "Trait": "גמישות מחשבתית וכושר אלתור",
+    "Diagnosis": "הכותב נוטה להתאים את דרך הפעולה למצב, לעבור בין אפשרויות ולמצוא פתרונות חדשים.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 68,
+    "Signs": [
+      {
+        "Metric": "Speed_Avg",
+        "Label": "מהירה",
+        "Weight": 0.9,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Flow_Avg",
+        "Label": "הרמוני",
+        "Weight": 1.0,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "LineShape_Threadlike",
+        "Label": "גבוה",
+        "Weight": 0.9,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Style_Simplified",
+        "Label": "גבוה",
+        "Weight": 0.8,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Edge_Wavy_Score",
+        "Label": "בינוני",
+        "Weight": 0.6,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Right_Margin_SD",
+        "Label": "תנודתי",
+        "Weight": 0.5,
+        "Domain": "Organization"
+      }
+    ]
+  },
+  "CommunicationAbility": {
+    "Trait": "יכולת תקשורת והבעה",
+    "Diagnosis": "הכותב נוטה להעביר מסרים באופן ברור, זורם ומאורגן ולהביע את עצמו בצורה מובנת.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 69,
+    "Signs": [
+      {
+        "Metric": "Readability",
+        "Label": "גדול",
+        "Weight": 1.2,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Flow_Avg",
+        "Label": "הרמוני",
+        "Weight": 1.0,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Word_Spacing_Avg",
+        "Label": "ממוצע",
+        "Weight": 0.9,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Char_Spacing_Avg",
+        "Label": "ממוצע",
+        "Weight": 0.9,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Neutral_Zone_SD",
+        "Label": "סדיר",
+        "Weight": 0.7,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Style_Enriched",
+        "Label": "גבוה",
+        "Weight": 0.6,
+        "Domain": "Form"
+      }
+    ]
+  },
+  "AttentionToDetail": {
+    "Trait": "תשומת לב לפרטים",
+    "Diagnosis": "הכותב נוטה להבחין בפרטים ולבצע משימות תוך בדיקה, דיוק ובקרה.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 70,
+    "Signs": [
+      {
+        "Metric": "Readability",
+        "Label": "גדול",
+        "Weight": 0.8,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Style_Standard",
+        "Label": "גבוה",
+        "Weight": 1.1,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Movement_Control",
+        "Label": "מרוסנת",
+        "Weight": 1.1,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Speed_Avg",
+        "Label": "קצובה",
+        "Weight": 0.7,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Edge_Straight_Score",
+        "Label": "גבוה",
+        "Weight": 0.8,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Word_Spacing_SD",
+        "Label": "סדיר",
+        "Weight": 0.7,
+        "Domain": "Organization"
+      }
+    ]
+  },
+  "StableSelfConfidence": {
+    "Trait": "ביטחון עצמי מאוזן",
+    "Diagnosis": "הכותב נוטה לבטא נוכחות יציבה, תחושת מסוגלות ויכולת לפעול ללא היסוס קיצוני.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 68,
+    "Signs": [
+      {
+        "Metric": "Neutral_Zone_Avg",
+        "Label": "ממוצע",
+        "Weight": 0.9,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Neutral_Zone_SD",
+        "Label": "סדיר",
+        "Weight": 0.9,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Flow_Avg",
+        "Label": "הרמוני",
+        "Weight": 1.0,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Pressure_Avg",
+        "Label": "ממוצע",
+        "Weight": 0.8,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Word_Spacing_SD",
+        "Label": "סדיר",
+        "Weight": 0.7,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Readability",
+        "Label": "גדול",
+        "Weight": 0.6,
+        "Domain": "Form"
+      }
+    ]
+  },
+  "Sensitivity": {
+    "Trait": "רגישות ועדינות",
+    "Diagnosis": "הכותב נוטה לקלוט דקויות, להגיב בעדינות ולהיות קשוב לשינויים בסביבה.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 68,
+    "Signs": [
+      {
+        "Metric": "Stroke_Thickness_avg",
+        "Label": "קטן",
+        "Weight": 1.0,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Pressure_Avg",
+        "Label": "נמוך",
+        "Weight": 0.9,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Movement_Avg",
+        "Label": "נרפית",
+        "Weight": 0.7,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Word_Spacing_Avg",
+        "Label": "גדול",
+        "Weight": 0.7,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Style_Enriched",
+        "Label": "גבוה",
+        "Weight": 0.6,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Edge_Jagged_Score",
+        "Label": "בינוני",
+        "Weight": 0.5,
+        "Domain": "Form"
+      }
+    ]
+  },
+  "DiligenceAndMotivation": {
+    "Trait": "חריצות ומוטיבציה",
+    "Diagnosis": "הכותב נוטה להשקיע מאמץ, לפעול באנרגיה ולשמור על התקדמות לאורך המשימה.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 68,
+    "Signs": [
+      {
+        "Metric": "Movement_Energy",
+        "Label": "נמרצת",
+        "Weight": 1.2,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Pressure_Avg",
+        "Label": "עמוק",
+        "Weight": 1.0,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Flow_Avg",
+        "Label": "הרמוני",
+        "Weight": 0.9,
+        "Domain": "Movement"
+      },
+      {
+        "Metric": "Lower_Zone_Mean",
+        "Label": "גדול",
+        "Weight": 0.7,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Row_Direction_SD",
+        "Label": "סדיר",
+        "Weight": 0.7,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Readability",
+        "Label": "גדול",
+        "Weight": 0.5,
+        "Domain": "Form"
+      }
+    ]
+  },
+  "Independence": {
+    "Trait": "עצמאות מחשבתית",
+    "Diagnosis": "הכותב נוטה לגבש עמדה אישית, לשמור על מרחב מחשבתי ולפעול מתוך בחירה עצמאית.",
+    "MinimumMatchedSigns": 3,
+    "MinimumScore": 68,
+    "Signs": [
+      {
+        "Metric": "Style_Enriched",
+        "Label": "גבוה",
+        "Weight": 1.0,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Upper_Zone_Mean",
+        "Label": "גדול",
+        "Weight": 0.8,
+        "Domain": "Form"
+      },
+      {
+        "Metric": "Word_Spacing_Avg",
+        "Label": "גדול",
+        "Weight": 0.9,
+        "Domain": "Organization"
+      },
+      {
+        "Metric": "Right_Margin",
+        "Label": "גדול",
+        "Weight": 0.6,
+        "Domain": "Organization"
+      }
+    ]
+  }
+}

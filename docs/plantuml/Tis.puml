@@ -1,0 +1,27 @@
+@startuml
+class Tis <<partial>> {
+    + ImgPath : string <<get>> <<set>>
+    + {static} <<async>> CreateAsync(imgPath:string) : Task<Tis>
+    + {static} ConvertImageToMatrix(img:Image<Rgba32>) : bool[,]
+}
+class "List`1"<T> {
+}
+class PythonCharDto {
+    + X : int <<get>> <<set>>
+    + Y : int <<get>> <<set>>
+    + W : int <<get>> <<set>>
+    + H : int <<get>> <<set>>
+    + Char : string <<get>> <<set>>
+    + Confidence : double <<get>> <<set>>
+}
+class PythonApiResponse {
+    + Status : string <<get>> <<set>>
+    + Message : string <<get>> <<set>>
+}
+Tis --> "Img<Rgba32>" "Image`1"
+Tis --> "ImgGray<Rgba32>" "Image`1"
+Tis --> "SortedLines<List<Character>>" "List`1"
+Tis +-- PythonCharDto
+Tis +-- PythonApiResponse
+PythonApiResponse --> "Predictions<List<PythonCharDto>>" "List`1"
+@enduml

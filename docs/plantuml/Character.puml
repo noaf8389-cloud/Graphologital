@@ -1,0 +1,15 @@
+@startuml
+class Character {
+    + X : double <<get>> <<set>>
+    + Y : double <<get>> <<set>>
+    + W : double <<get>> <<set>>
+    + H : double <<get>> <<set>>
+    + Confidence : double <<get>> <<set>>
+    + PredictedClass : char? <<get>> <<set>>
+    + angleChar : double <<get>> <<set>>
+    + Character()
+    + Character(x:double, y:double, w:double, h:double, conf:double, pClass:char?, sourceParent:Image<Rgba32>?)
+    + angle() : double
+}
+Character --> "CharImg<Rgba32>" "Image`1"
+@enduml

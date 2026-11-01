@@ -1,0 +1,217 @@
+{
+"GraphologyFormulaWeights": {
+"ContourEdges": {
+"Straight": {
+"AverageAngleChange": 0.35,
+"AngleChangeStd": 0.30,
+"SharpCorners": 0.20,
+"WaveRatio": 0.15
+},
+"Changing": {
+"AverageAngleChange": 0.55,
+"AngleChangeStd": 0.35,
+"WaveRatio": 0.10
+},
+"Wavy": {
+"WaveRatio": 0.70,
+"AngleChangeStd": 0.30
+},
+"Jagged": {
+"SharpCorners": 0.65,
+"AverageAngleChange": 0.25,
+"AngleChangeStd": 0.10
+},
+"Irregular": {
+"AngleChangeStd": 0.45,
+"AverageAngleChange": 0.25,
+"WaveRatio": 0.20,
+"SharpCorners": 0.10
+}
+},
+
+
+"Darkness": {
+  "Average": {
+    "AverageDarkness": 0.65,
+    "MaximumDarkness": 0.20,
+    "DarknessStd": 0.15
+  }
+},
+
+"DerivedMetrics": {
+  "EdgesPressure": {
+    "EdgeJagged": 0.45,
+    "EdgeIrregular": 0.35,
+    "EdgeChanging": 0.20
+  },
+  "LineStructureStd": {
+    "LineSpacingStd": 0.60,
+    "RowDirectionStd": 0.40
+  }
+},
+
+"WritingPressure": {
+  "Average": {
+    "Darkness": 0.40,
+    "WidthAverage": 0.25,
+    "EdgeWidth": 0.15,
+    "EdgeInstability": 0.20
+  },
+  "StandardDeviation": {
+    "DarknessStd": 0.45,
+    "WidthStd": 0.35,
+    "EdgeInstability": 0.20
+  }
+},
+
+"WritingFlow": {
+  "Average": {
+    "Continuity": 0.25,
+    "AngleStability": 0.20,
+    "SpacingStability": 0.15,
+    "LineStability": 0.15,
+    "Readability": 0.10,
+    "PressureStability": 0.08,
+    "WidthStability": 0.07
+  },
+  "StandardDeviation": {
+    "AngleStd": 0.20,
+    "SpacingStd": 0.15,
+    "LineStd": 0.15,
+    "PressureStd": 0.08,
+    "WidthStd": 0.07
+  }
+},
+
+"Movement": {
+  "Energy": {
+    "Pressure": 0.35,
+    "Flow": 0.30,
+    "Width": 0.20,
+    "EdgeChanging": 0.15
+  },
+  "Sharpness": {
+    "EdgeJagged": 0.65,
+    "EdgeChanging": 0.25,
+    "EdgeIrregular": 0.10
+  },
+  "Periodicity": {
+    "EdgeWavy": 0.75,
+    "EdgeChanging": 0.25
+  },
+  "Control": {
+    "EdgeStraight": 0.45,
+    "Flow": 0.25,
+    "EdgeRegularity": 0.20,
+    "PressureStability": 0.10
+  },
+  "Blocking": {
+    "LowFlow": 0.40,
+    "Pressure": 0.25,
+    "EdgeJagged": 0.20,
+    "EdgeIrregular": 0.15
+  },
+  "Smear": {
+    "WidthStd": 0.45,
+    "EdgeIrregular": 0.30,
+    "PressureStd": 0.25
+  },
+  "Average": {
+    "Energy": 0.30,
+    "Flow": 0.25,
+    "Sharpness": 0.20,
+    "Periodicity": 0.15,
+    "Control": 0.10
+  },
+  "StandardDeviation": {
+    "FlowStd": 0.35,
+    "PressureStd": 0.30,
+    "WidthStd": 0.20,
+    "EdgeIrregular": 0.15
+  }
+},
+
+"ShapeStyle": {
+  "Complexity": {
+    "AverageAngleChange": 0.30,
+    "AngleChangeStd": 0.25,
+    "SharpCorners": 0.20,
+    "WaveRatio": 0.15,
+    "WidthStd": 0.10
+  },
+  "Decorated": {
+    "WaveRatio": 0.35,
+    "AverageAngleChange": 0.25,
+    "AngleChangeStd": 0.20,
+    "WidthStd": 0.20
+  },
+  "Standard": {
+    "Readability": 0.40,
+    "AngleStability": 0.25,
+    "CornerSmoothness": 0.20,
+    "WidthStability": 0.15
+  },
+  "Enriched": {
+    "Complexity": 0.70,
+    "Decorated": 0.30
+  }
+},
+
+"LineShape": {
+  "Straight": {
+    "AngleSmoothness": 0.35,
+    "AngleStability": 0.30,
+    "CornerSmoothness": 0.25,
+    "Simplified": 0.10
+  },
+  "Roundness": {
+    "AverageAngleChange": 0.55,
+    "CornerSmoothness": 0.45
+  },
+  "Convex": {
+    "WritingWidth": 0.35,
+    "Roundness": 0.30,
+    "HeightWidthRatio": 0.15,
+    "WaveRatio": 0.10,
+    "AngleStability": 0.10
+  },
+  "Concave": {
+    "NarrowWriting": 0.35,
+    "LowHeightWidthRatio": 0.20,
+    "AngleChangeStd": 0.20,
+    "SharpCorners": 0.15,
+    "LowFlow": 0.10
+  },
+  "Threadlike": {
+    "ThinWidth": 0.30,
+    "WidthStability": 0.20,
+    "Continuity": 0.20,
+    "Simplified": 0.20,
+    "Flow": 0.10
+  },
+  "EdgeBonus": {
+    "Straight": 0.08,
+    "Wavy": 0.05,
+    "Jagged": 0.03,
+    "Irregular": 0.02
+  }
+},
+
+"WritingSpeed": {
+  "Average": {
+    "Flow": 0.30,
+    "Movement": 0.25,
+    "Continuity": 0.20,
+    "Simplified": 0.15,
+    "AngleSmoothness": 0.10
+  },
+  "StandardDeviation": {
+    "FlowStd": 0.30,
+    "MovementStd": 0.30,
+    "AngleStd": 0.15
+  }
+}
+
+
+}
+}

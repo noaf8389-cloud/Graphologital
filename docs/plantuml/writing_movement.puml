@@ -1,0 +1,33 @@
+@startuml
+class Tis <<partial>> {
+    + writing_pressure() : (double avg, double sq, double avgEdges)
+    + CreateIntegralImage(matrix:bool[,]) : int[,]
+    + {static} GenerateSkeleton(binaryMatrix:bool[,]) : bool[,]
+    + Darkness() : (double avg, double sq)
+    + EdgesByContours() : (double avgChange, double stdChange, double sharpRatio, double waveRatio, int contours_count)
+    + {static} FindSampleContours(binary:bool[,], maxContours:int, minPoints:int) : List<List<Point>>
+    + {static} Angle(a:Point, b:Point, c:Point) : double
+    + {static} WritingPressure(darkness:double, darknessStdPercent:double, widthAvgPercent:double, widthStdPercent:double, edgeWidthPercent:double, edgeType:EdgeType) : (double avg, double sq)
+    + {static} CalculateWritingFlowPercent(continuityPercent:double, continuityStdPercent:double, angleStabilityPercent:double, angleStdPercent:double, spacingStabilityPercent:double, spacingStdPercent:double, lineStabilityPercent:double, lineStdPercent:double, readabilityPercent:double, readabilityStdPercent:double, pressureStabilityPercent:double, pressureStdPercent:double, widthStabilityPercent:double, widthStdPercent:double) : (double flowAvgPercent, double flowStdPercent)
+    + {static} CalculateMovementMetrics(flowAvgPercent:double, flowStdPercent:double, continuityPercent:double, continuityStdPercent:double, avgAngleChangePercent:double, stdAngleChangePercent:double, sharpCornersPercent:double, waveRatioPercent:double, pressurePercent:double, pressureStdPercent:double, widthPercent:double, widthStdPercent:double, edgeType:EdgeType) : (
+        double movementAvgPercent,     // ממוצע תנועתיות כללי: כמה הכתב נראה זורם/פעיל
+        double movementStdPercent,     // סטיית תנועתיות: כמה התנועתיות לא יציבה
+        double energyPercent,          // עוצמת תנועה: לפי שטף, לחץ, עובי ושינויי זווית
+        double sharpnessPercent,       // חדות תנועה: לפי פינות חדות וסטיית זוויות
+        double controlPercent,         // שליטה/ריסון: לפי יציבות שטף, זוויות ולחץ
+        double blockingPercent,        // עצירות: לפי חוסר שטף, חוסר רציפות ומעט תנועה
+        double smearPercent,           // מריחה: לפי עובי, סטיית עובי, סטיית לחץ ודפנות
+        double periodicityPercent)
+    + {static} CalculateWritingSpeed(flowAvgPercent:double, flowStdPercent:double, movementAvgPercent:double, movementStdPercent:double, continuityPercent:double, continuityStdPercent:double, simplifiedPercent:double, simplifiedStdPercent:double, avgAngleChangePercent:double, angleStdPercent:double) : (double speedAvgPercent, double speedStdPercent)
+}
+enum EdgeType {
+    NotEnoughData,
+    Straight,
+    Changing,
+    Wavy,
+    Jagged,
+    Irregular,
+}
+Character <|-- Tis
+Tis +-- EdgeType
+@enduml

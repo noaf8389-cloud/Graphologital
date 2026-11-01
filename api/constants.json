@@ -1,0 +1,36 @@
+{
+  "GraphologyConstants": {
+    "Syndromes": {
+    "StrongSignScore": 70.0,
+    "StrictSignScoreAddition": 3.0,
+    "StrictSyndromeScoreAddition": 3.0,
+    "DefaultContinuityPercent": 50.0
+    },
+
+    "Contours": {
+      "MaximumContours": 30,
+      "MinimumPoints": 20,
+      "PointStep": 3,
+      "SharpCornerAngle": 140.0,
+      "AverageChangeDivisor": 180.0,
+      "StandardDeviationDivisor": 90.0,
+      "TraceMaximumSteps": 3000,
+      "MinimumCheckedPoints": 10,
+      "ScoreMin": 0.0,
+      "ScoreMax": 100.0
+    },
+
+    "ImageProcessing": {
+      "BlackPixelThreshold": 128,
+      "BinaryThreshold": 0.5,
+      "EdgeWindowRadius": 2,
+      "MaxPixelValue": 255.0,
+      "DarknessStandardDeviationDivisor": 128.0
+    },
+
+    "PythonService": {
+      "ApiUrl": "http://127.0.0.1:8000/analyze",
+      "TimeoutMinutes": 5
+    }
+  }
+}

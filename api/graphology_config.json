@@ -1,0 +1,992 @@
+{
+  "Top_Margin": {
+    "Min": 0,
+    "Max": 500,
+    "Levels": [
+      {
+        "ReferenceValue": 60,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 180,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 500,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Bottom_Margin": {
+    "Min": 0,
+    "Max": 500,
+    "Levels": [
+      {
+        "ReferenceValue": 60,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 200,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 500,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Left_Margin": {
+    "Min": 0,
+    "Max": 400,
+    "Levels": [
+      {
+        "ReferenceValue": 60,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 160,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 400,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Left_Margin_SD": {
+    "Min": 0,
+    "Max": 120,
+    "Levels": [
+      {
+        "ReferenceValue": 15,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 120,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "Right_Margin": {
+    "Min": 0,
+    "Max": 400,
+    "Levels": [
+      {
+        "ReferenceValue": 50,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 140,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 400,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Right_Margin_SD": {
+    "Min": 0,
+    "Max": 120,
+    "Levels": [
+      {
+        "ReferenceValue": 18,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 120,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "Word_Spacing_Avg": {
+    "Min": 3,
+    "Max": 160,
+    "Levels": [
+      {
+        "ReferenceValue": 22,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 60,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 160,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Word_Spacing_SD": {
+    "Min": 0,
+    "Max": 60,
+    "Levels": [
+      {
+        "ReferenceValue": 8,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 60,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "Char_Spacing_Avg": {
+    "Min": 0,
+    "Max": 50,
+    "Levels": [
+      {
+        "ReferenceValue": 4,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 14,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 50,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Char_Spacing_SD": {
+    "Min": 0,
+    "Max": 20,
+    "Levels": [
+      {
+        "ReferenceValue": 2.5,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 20,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "Line_Spacing_Avg": {
+    "Min": 8,
+    "Max": 280,
+    "Levels": [
+      {
+        "ReferenceValue": 45,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 110,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 280,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Line_Spacing_SD": {
+    "Min": 0,
+    "Max": 80,
+    "Levels": [
+      {
+        "ReferenceValue": 10,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 80,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "Row_Direction": {
+    "Min": -12,
+    "Max": 12,
+    "Levels": [
+      {
+        "ReferenceValue": -2.5,
+        "Label": "כלפי מטה"
+      },
+      {
+        "ReferenceValue": 2.5,
+        "Label": "ישר"
+      },
+      {
+        "ReferenceValue": 12,
+        "Label": "עולה"
+      }
+    ]
+  },
+  "Row_Direction_SD": {
+    "Min": 0,
+    "Max": 30,
+    "Levels": [
+      {
+        "ReferenceValue": 5,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 30,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "Row_undulations": {
+    "Min": 0,
+    "Max": 120,
+    "Levels": [
+      {
+        "ReferenceValue": 12,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 120,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "Word_slope": {
+    "Min": -12,
+    "Max": 12,
+    "Levels": [
+      {
+        "ReferenceValue": -3,
+        "Label": "כלפי מטה"
+      },
+      {
+        "ReferenceValue": 3,
+        "Label": "ישר"
+      },
+      {
+        "ReferenceValue": 12,
+        "Label": "עולה"
+      }
+    ]
+  },
+  "Angle_Avg": {
+    "Min": 45,
+    "Max": 135,
+    "Levels": [
+      {
+        "ReferenceValue": 78,
+        "Label": "נוטה שמאלה"
+      },
+      {
+        "ReferenceValue": 102,
+        "Label": "זקוף"
+      },
+      {
+        "ReferenceValue": 135,
+        "Label": "נוטה ימינה"
+      }
+    ]
+  },
+  "Angle_SD": {
+    "Min": 0,
+    "Max": 35,
+    "Levels": [
+      {
+        "ReferenceValue": 7,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 35,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "Neutral_Zone_Avg": {
+    "Min": 4,
+    "Max": 80,
+    "Levels": [
+      {
+        "ReferenceValue": 16,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 38,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 80,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Neutral_Zone_SD": {
+    "Min": 0,
+    "Max": 25,
+    "Levels": [
+      {
+        "ReferenceValue": 3.5,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 25,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "Upper_Zone_Mean": {
+    "Min": 0.05,
+    "Max": 0.5,
+    "Levels": [
+      {
+        "ReferenceValue": 0.1,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 0.22,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 0.5,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Lower_Zone_Mean": {
+    "Min": 4,
+    "Max": 120,
+    "Levels": [
+      {
+        "ReferenceValue": 18,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 50,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 120,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "ThreeZone_Ratio": {
+    "Min": 0.05,
+    "Max": 0.5,
+    "Levels": [
+      {
+        "ReferenceValue": 0.1,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 0.22,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 0.5,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Avg_Word_Width": {
+    "Min": 12,
+    "Max": 250,
+    "Levels": [
+      {
+        "ReferenceValue": 48,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 120,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 250,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Readability": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 32,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 72,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Geometric_Shape": {
+    "Min": 0.35,
+    "Max": 2.5,
+    "Levels": [
+      {
+        "ReferenceValue": 0.82,
+        "Label": "אנכי"
+      },
+      {
+        "ReferenceValue": 1.18,
+        "Label": "עגול"
+      },
+      {
+        "ReferenceValue": 2.5,
+        "Label": "אופקי"
+      }
+    ]
+  },
+  "Geometric_Shape_SD": {
+    "Min": 0,
+    "Max": 2.5,
+    "Levels": [
+      {
+        "ReferenceValue": 0.5,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 2.5,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "Stroke_Thickness_avg": {
+    "Min": 0.5,
+    "Max": 16,
+    "Levels": [
+      {
+        "ReferenceValue": 3,
+        "Label": "קטן"
+      },
+      {
+        "ReferenceValue": 6.5,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 16,
+        "Label": "גדול"
+      }
+    ]
+  },
+  "Stroke_Thickness_SD": {
+    "Min": 0,
+    "Max": 4,
+    "Levels": [
+      {
+        "ReferenceValue": 0.5,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 4,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "avgEdges": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 38,
+        "Label": "רך"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "חד"
+      }
+    ]
+  },
+  "darkness": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 28,
+        "Label": "בהיר"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "כהה"
+      }
+    ]
+  },
+  "darkness_SD": {
+    "Min": 0,
+    "Max": 35,
+    "Levels": [
+      {
+        "ReferenceValue": 5,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 35,
+        "Label": "תנודתי"
+      }
+    ]
+  },
+  "Edge_Straight_Score": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 33,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 66,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "Edge_Changing_Score": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 33,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 66,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "Edge_Wavy_Score": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 33,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 66,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "Edge_Jagged_Score": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 33,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 66,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "Edge_Irregular_Score": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 33,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 66,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "Pressure_Avg": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 30,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 60,
+        "Label": "ממוצע"
+      },
+      {
+        "ReferenceValue": 82,
+        "Label": "עמוק"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "חודרני"
+      }
+    ]
+  },
+  "Pressure_SD": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "לסירוגין"
+      }
+    ]
+  },
+  "Flow_Avg": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "לא שטפי"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "מווסת"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "הרמוני"
+      }
+    ]
+  },
+  "Flow_SD": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "סדיר"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "דיסהרמוני"
+      }
+    ]
+  },
+  "Movement_Avg": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נרפית"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "ממוצעת"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "נמרצת"
+      }
+    ]
+  },
+  "Movement_SD": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "סדירה"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "אימפולסיבית"
+      }
+    ]
+  },
+  "Movement_Energy": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נרפית"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "ממוצעת"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "נמרצת"
+      }
+    ]
+  },
+  "Movement_Sharpness": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "רכה"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "ממוצעת"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "אימפולסיבית"
+      }
+    ]
+  },
+  "Movement_Control": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נמוכה"
+      },
+      {
+        "ReferenceValue": 70,
+        "Label": "מרוסנת"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "עצורה"
+      }
+    ]
+  },
+  "Movement_Blocking": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 70,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "Movement_Smear": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 40,
+        "Label": "נקייה"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "מרוחה"
+      }
+    ]
+  },
+  "Movement_Periodicity": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 40,
+        "Label": "לא מחזורית"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "מחזורית"
+      }
+    ]
+  },
+  "Speed_Avg": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "איטית"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "קצובה"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "מהירה"
+      }
+    ]
+  },
+  "Speed_SD": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "קצובה"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "זריזה"
+      }
+    ]
+  },
+  "Style_Standard": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "Style_Simplified": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "Style_Decorated": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "Style_Enriched": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "LineShape_Straight": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "LineShape_Convex": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "LineShape_Concave": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  },
+  "LineShape_Threadlike": {
+    "Min": 0,
+    "Max": 100,
+    "Levels": [
+      {
+        "ReferenceValue": 35,
+        "Label": "נמוך"
+      },
+      {
+        "ReferenceValue": 65,
+        "Label": "בינוני"
+      },
+      {
+        "ReferenceValue": 100,
+        "Label": "גבוה"
+      }
+    ]
+  }
+}

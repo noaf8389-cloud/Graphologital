@@ -1,0 +1,21 @@
+# .NET
+bin/
+obj/
+.vs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.idea/
+.vscode/
+
+# Runtime uploads (keep the folder only)
+**/Uploads/*
+!**/Uploads/.gitkeep
